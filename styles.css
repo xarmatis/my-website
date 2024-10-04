@@ -1,0 +1,19 @@
+html, body{
+    
+    display: grid;
+    place-items: center;
+    background-color: rgb(112, 237, 241); 
+}
+
+ul {  
+    font-size: 25px;
+}
+
+#name {
+
+    text-align: center;
+    width: 400px;
+    font-size: 40px;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
