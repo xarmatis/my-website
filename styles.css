@@ -1,19 +1,23 @@
-html, body{
+body {
     
-    display: grid;
-    place-items: center;
-    background-color: rgb(112, 237, 241); 
+    background-color: bisque;
+
 }
 
-ul {  
-    font-size: 25px;
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.middle {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#name {
-
-    text-align: center;
-    width: 400px;
-    font-size: 40px;
-    position: relative;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
